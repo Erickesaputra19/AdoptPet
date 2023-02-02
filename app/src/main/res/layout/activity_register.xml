@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="527dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/pet_shop"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="23dp"
+        android:gravity="center_horizontal"
+        android:text="Pet Adopt Mobile"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Sign Up" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

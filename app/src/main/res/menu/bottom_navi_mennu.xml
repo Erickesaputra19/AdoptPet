@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navi_home"
+        android:title="Home"
+        android:icon="@drawable/homec"/>
+    <item
+        android:id="@+id/navi_cart"
+        android:title="Cart"
+        android:icon="@drawable/cart"/>
+    <item
+        android:id="@+id/navi_profilr"
+        android:title="Profile"
+        android:icon="@drawable/mb_profil"/>
+</menu>
